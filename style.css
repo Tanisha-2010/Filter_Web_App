@@ -1,0 +1,49 @@
+h3 {
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/05/08/85/65/360_F_508856527_j47VSpWgbNbECuiOa9kSUllJBuZ2V1hF.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#take_snapshot,
+#applyTint {
+    font-family: 'Are You Serious', cursive;
+    font-size: 25px;
+    background-color: #fcd55e;
+    width: 10%;
+    height: 6%;
+    border-radius: 10px;
+}
+
+#input_tint {
+    width: 20%;
+    height: 5%;
+    border-width: 2px;
+    border-color: black;
+}
+
+canvas {
+    animation: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    25% {
+        box-shadow: 1px 1px 30px yellow;
+    }
+    50% {
+        box-shadow: 1px 1px 30px pink;
+    }
+    75% {
+        box-shadow: 1px 1px 30px skyblue;
+    }
+    100% {
+        box-shadow: 1px 1px 30px lime;
+    }
+}
