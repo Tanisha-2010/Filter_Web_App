@@ -8,7 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="main.js"></script>
+    <script src="jwellery.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
@@ -17,17 +17,15 @@
 
 <body>
     <center>
-        <h3>Filter Webapp</h3>
-        <hr>
-        <h4 style="font-family: 'Pacifico', cursive;">Choose your Filter Theme</h4><br>
-        <img onclick="donuts()" src="https://cdn.wallpapersafari.com/25/51/LNitD2.jpg" width="300" height="200" style="border: 7px ridge;">
-        <img onclick="jwellery()" src="https://i.pinimg.com/originals/ff/9c/20/ff9c204f62b65141a988cde3c7b1484f.jpg" width="300" height="200" style="border: 7px ridge;">
-        <br><br>
-        <img src="https://st2.depositphotos.com/1744275/9799/v/950/depositphotos_97990602-stock-illustration-lipsticks-and-kiss-background-pattern.jpg" onclick="lipstick()" width="300" height="200" style="border: 7px ridge;">
-        <img onclick="coffee()" width="300" height="200" style="border: 7px ridge ;" src="coffee_wallpaper.jpg">
+        <h3>Filter Webapp</h3><br>
+        <input type="text" class="form-control" id="input_tint" placeholder="Enter Tint"><br>
+        <button id="applyTint" onclick="applyTint()">Apply Tint</button>
+        <button id="take_snapshot" onclick="takeSnapshot()">Take Snapshot</button>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <button id="btn_back" onclick="back()">Back</button><br><br>
     </center>
 
-    <script src="main.js"></script>
+    <script src="jwellery.js"></script>
 </body>
 
 </html>

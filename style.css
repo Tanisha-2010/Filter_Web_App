@@ -11,7 +11,8 @@ body {
 }
 
 #take_snapshot,
-#applyTint {
+#applyTint,
+#btn_back {
     font-family: 'Are You Serious', cursive;
     font-size: 25px;
     background-color: #fcd55e;
