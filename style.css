@@ -48,3 +48,14 @@ canvas {
         box-shadow: 1px 1px 30px lime;
     }
 }
+
+#footer {
+    width: 100%;
+    background-color: white;
+    bottom: 15px;
+    position: fixed;
+    box-shadow: 5px 5px 10px gray;
+    line-height: 2;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
